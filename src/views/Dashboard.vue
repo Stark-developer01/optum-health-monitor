@@ -7,8 +7,8 @@
           <CCardBody>
             <CRow>
               <CCol :sm="5">
-                <h4 id="traffic" class="card-title mb-0">Traffic</h4>
-                <div class="small text-medium-emphasis">January 2021</div>
+                <h4 id="traffic" class="card-title mb-0">Patient Report</h4>
+                <div class="small text-medium-emphasis">Health Status</div>
               </CCol>
               <CCol :sm="7" class="d-none d-md-block">
                 <CButton color="primary" class="float-end">
@@ -19,9 +19,9 @@
                   role="group"
                   aria-label="Basic outlined example"
                 >
-                  <CButton color="secondary" variant="outline">Day</CButton>
+                  <CButton color="secondary" variant="outline">Month</CButton>
                   <CButton color="secondary" variant="outline" active
-                    >Month</CButton
+                    >Day</CButton
                   >
                   <CButton color="secondary" variant="outline">Year</CButton>
                 </CButtonGroup>
@@ -36,36 +36,36 @@
           <CCardFooter>
             <CRow :xs="{ cols: 1 }" :md="{ cols: 5 }" class="text-center">
               <CCol class="mb-sm-2 mb-0">
-                <div class="text-medium-emphasis">Visits</div>
-                <strong>29.703 Users (40%)</strong>
+                <div class="text-medium-emphasis">Accuracy</div>
+                <strong>80%</strong>
                 <CProgress
                   class="mt-2"
                   color="success"
                   thin
                   :precision="1"
-                  :value="40"
+                  :value="80"
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0 d-md-down-none">
-                <div class="text-medium-emphasis">Unique</div>
-                <strong>24.093 Users (20%)</strong>
+                <div class="text-medium-emphasis">Regularity</div>
+                <strong>24 days (50%)</strong>
                 <CProgress
                   class="mt-2"
                   color="info"
                   thin
                   :precision="1"
-                  :value="20"
+                  :value="50"
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0">
-                <div class="text-medium-emphasis">Pageviews</div>
-                <strong>78.706 Views (60%)</strong>
+                <div class="text-medium-emphasis">Efficiency</div>
+                <strong>98%</strong>
                 <CProgress
                   class="mt-2"
                   color="warning"
                   thin
                   :precision="1"
-                  :value="60"
+                  :value="98"
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0">
@@ -80,9 +80,8 @@
                 />
               </CCol>
               <CCol class="mb-sm-2 mb-0 d-md-down-none">
-                <div class="text-medium-emphasis">Bounce Rate</div>
-                <strong>Average Rate (40.15%)</strong>
-                <CProgress class="mt-2" :value="40" thin :precision="1" />
+                <div class="text-medium-emphasis">Medication Side Effects</div>
+                <strong>None</strong>
               </CCol>
             </CRow>
           </CCardFooter>

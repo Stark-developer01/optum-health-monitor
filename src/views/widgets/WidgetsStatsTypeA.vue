@@ -3,12 +3,12 @@
     <CCol :xs="3">
       <CWidgetStatsA class="mb-4" color="primary">
         <template #value
-          >26K
+          >90/130
           <span class="fs-6 fw-normal">
-            (-12.4% <CIcon icon="cil-arrow-bottom" />)
+            (-10% <CIcon icon="cil-arrow-bottom" />)
           </span>
         </template>
-        <template #title>Users</template>
+        <template #title>Blood Pressure</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle
@@ -98,12 +98,12 @@
     <CCol :xs="3">
       <CWidgetStatsA class="mb-4" color="info">
         <template #value
-          >$6.200
+          >71 BPM
           <span class="fs-6 fw-normal">
-            (40.9% <CIcon icon="cil-arrow-top" />)
+            (1.38% <CIcon icon="cil-arrow-down" />)
           </span>
         </template>
-        <template #title>Income</template>
+        <template #title>Heart Beat</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle
@@ -192,12 +192,12 @@
     <CCol :xs="3">
       <CWidgetStatsA class="mb-4" color="warning">
         <template #value
-          >2.49%
+          >98.9 F
           <span class="fs-6 fw-normal">
-            (84.7% <CIcon icon="cil-arrow-top" />)
+            (1.27% <CIcon icon="cil-arrow-top" />)
           </span>
         </template>
-        <template #title>Conversion Rate</template>
+        <template #title>Body Temperature</template>
         <template #action>
           <CDropdown placement="bottom-end">
             <CDropdownToggle
